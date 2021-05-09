@@ -1,0 +1,26 @@
+ReactJs es una libreria Reactiva
+
+Componentes
+	hay dos formas de crear componentes:
+		* class 
+		* function
+	props => propiedades
+	
+Jsx
+	this is a form to write HTML using JavaScript
+	trabaja como una forma declarativa mas no de logica
+Estado
+
+	Estados en Classes				
+		* Todos van en el contructor			
+		this.state = {n=5}; => lectura
+		this.setState({n:value}) => modificar el estado
+
+		funciones para saber el estado
+		componentDidMount(){
+			para configurar el estado inicial cuando el componente se agrega al DOM
+		}
+
+		componentWillUnmount(){
+			para terminar actividades cuando el componente se elimina del DOM
+		}
